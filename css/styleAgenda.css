@@ -1,0 +1,169 @@
+/************************************MENU SUPERIOR************************************/
+.main{
+    margin: auto;
+    width: 1000px;
+}
+
+
+#barMenu{
+    background-color: rgb(48, 48, 48);
+    display: inline-block;
+    width: 100%;
+    height: 10%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.menu{
+    background-color: rgb(48, 48, 48);
+    display: inline-block;
+    width: 85%;
+    height: 50px;
+    position: sticky;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-family: monospace;    
+}
+
+.menu ul{
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu ul li{
+    float: left;
+}
+  
+.menu ul li a{
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.menu ul li a:hover{
+    color: rgb(235, 196, 196);   
+}
+
+.search{
+    margin-left: 320px;
+    margin-top: -40px;
+}
+
+#bar{
+    border: none;
+    padding: 10px 60px;
+}
+
+#boton{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: -5px;
+}
+
+#boton:hover{
+    background-color: rgb(218, 218, 218);
+}
+
+#icon{
+    height: 12px;
+}
+
+.login{
+    margin-top: -25px;
+    margin-right: 20px;
+    float: right;
+    font-size:20px;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.login a{
+    text-decoration: none;
+}
+
+#separar{
+    color: white;
+    display: inline;
+}
+
+#reg{
+     color:white;
+}
+
+#ini{
+     color:white;
+}
+
+#reg:hover{
+     color:rgb(235, 196, 196);
+}
+
+#ini:hover{
+     color:rgb(235, 196, 196);
+}
+
+/************************************TITULO DE SECCION************************************/
+
+header{
+    background-color: lightcoral;  
+    color: white;
+    margin-top: 57px;
+    left: 0;
+    margin-left: -8px;
+    font-family: fantasy;
+    font-size: 25px;
+    display: inline-block;
+    height: 200px;
+    text-align: center;
+    width: 100%;
+    padding: 8px;
+}
+
+.logo{
+    display: block;
+    margin-top: 35px;
+    margin-right: 200px;
+    float: right;
+}
+
+h1{
+    margin-top: 60px;
+    letter-spacing: 10px;
+    display: block;
+}
+
+
+
+/************************************BARRA INFERIOR************************************/
+
+footer{
+    background-color: lightcoral; 
+    width: 100%; 
+    color: white;
+    font-family: fantasy;
+    font-size: 19px;
+    letter-spacing: 3px;
+    padding: 8px;
+    width: 100%;
+    margin-bottom: -10px;
+    margin-left: -8px;
+    text-align: center;
+}
+
+
+/************************************AGENDA************************************/
+.containers{
+  margin: auto;
+  width: 700px;
+  border-radius:10px;
+}

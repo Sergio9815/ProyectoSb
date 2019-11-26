@@ -1,0 +1,545 @@
+/************************************MENU SUPERIOR************************************/
+/*NUEVO*/
+.main{
+    margin: auto;
+    width: 1000px;
+}
+
+
+#barMenu{
+    background-color: rgb(48, 48, 48);
+    display: inline-block;
+    width: 100%;
+    height: 10%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.menu{
+    background-color: rgb(48, 48, 48);
+    display: inline-block;
+    width: 85%;
+    height: 50px;
+    position: sticky;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-family: monospace;    
+}
+
+.menu ul{
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu ul li{
+    float: left;
+}
+  
+.menu ul li a{
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.menu ul li a:hover{
+    color: rgb(235, 196, 196);   
+}
+
+.search{
+    margin-left: 320px;
+    margin-top: -40px;
+}
+
+#bar{
+    border: none;
+    padding: 10px 60px;
+}
+
+#boton{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: -5px;
+}
+
+#boton:hover{
+    background-color: rgb(218, 218, 218);
+}
+
+#icon{
+    height: 12px;
+}
+
+.login{
+    margin-top: -25px;
+    margin-right: 20px;
+    float: right;
+    font-size:20px;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.login a{
+    text-decoration: none;
+}
+
+#separar{
+    color: white;
+    display: inline;
+}
+
+#reg{
+     color:white;
+}
+
+#ini{
+     color:white;
+}
+
+#reg:hover{
+     color:rgb(235, 196, 196);
+}
+
+#ini:hover{
+     color:rgb(235, 196, 196);
+}
+
+/************************************TITULO DE SECCION************************************/
+
+header{
+    background-color: lightcoral;  
+    color: white;
+    margin-top: 57px;
+    left: 0;
+    margin-left: -8px;
+    font-family: fantasy;
+    font-size: 25px;
+    display: inline-block;
+    height: 200px;
+    text-align: center;
+    width: 100%;
+    padding: 8px;
+}
+
+.logo{
+    display: block;
+    margin-top: 35px;
+    margin-right: 200px;
+    float: right;
+}
+
+h1{
+    margin-top: 60px;
+    letter-spacing: 10px;
+    display: block;
+}
+
+
+/************************************INICIO DE SESION************************************/
+
+
+#header{
+    background-color: lightcoral;  
+    height: 120px;
+    width: 100%; 
+    left: 0;
+    top: 0; 
+    position: fixed;
+    color: white;
+    font-family: fantasy;
+    font-size: 24px;
+}
+
+#picture{
+    display: block;
+    float: left;
+    margin-left: 5px;
+    margin-right: -35px;
+    margin-top: 50px;
+}
+
+#sesion{
+    display: block;
+    margin-top: 110px;
+    margin-bottom: 20px;
+    color: rgb(95, 95, 95);
+    font-family: fantasy;
+    font-size: 20px;
+    letter-spacing: 1px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    height:460px;
+}
+
+#tituS{
+    text-align:center;
+    font-size:40px;
+    letter-spacing: 3px;
+}
+
+#inicio{
+    margin:auto;
+    float: right;
+    margin-right: 50px;
+    display: block;
+    margin-top:5px;
+    font-size:18px;
+    width:450px;
+    height:200px;
+ }
+ 
+.ini{
+    display: block;
+    margin-top: 5px;
+    width: 350px;
+    padding:8px;
+    color: rgb(110, 110, 110);
+    border: 1px solid rgb(223, 223, 223);
+    margin: auto;
+ }
+
+ .btnIni{
+    margin-left: 40px;
+    width: 370px;
+    margin-top: 15px;
+    padding: 11px;
+    border: none;
+    letter-spacing: 4px;
+    background-color: rgb(84, 141, 84);
+    color: white;
+    cursor: pointer;
+ }
+
+ .btnIni:hover{
+    background-color: rgb(101, 170, 101);
+ }
+
+ #blanco{
+    margin-bottom: 49px;
+}
+
+
+/************************************ACTUALIZAR Y BORRAR DATOS************************************/
+
+
+#crear2{
+  text-align:center;
+  font-family: fantasy;
+  font-size:35px;
+  color: lightcoral;
+  letter-spacing: 6px;
+  margin-top: -5px;
+  margin-bottom: -10px;
+}
+
+#registro{
+  margin: auto;
+  width: 440px;
+  color: rgb(95, 95, 95);
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+.titu{
+  display: block;
+  margin-top: 5px;
+  margin-left: 50px;
+}
+
+#regis{
+  margin:auto;
+  display: block;
+  margin-top:40px;
+  font-size:18px;
+  width:450px;
+  height:200px;
+}
+
+#espacio{
+  margin-top: 280px;
+}
+
+#espacio2{
+  margin-top: 400px;
+}
+
+.in{
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  width: 350px;
+  padding:8px;
+  color: rgb(110, 110, 110);
+  border: 1px solid rgb(223, 223, 223);
+  margin-left: 40px;
+}
+
+.date{
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  width: 350px;
+  padding:8px;
+  color: rgb(110, 110, 110);
+  border: 1px solid rgb(223, 223, 223);
+  margin-left: 40px;
+}
+
+#cancel{
+  margin-left: 40px;
+  width: 200px;
+  border: none;
+  padding: 11px 40px;
+  text-decoration: none;
+  letter-spacing: 4px;
+  background-color: rgb(245, 131, 111);
+  color: white;
+  cursor: pointer;
+}
+
+.btnReg{
+  margin-left: 6px;
+  width: 200px;
+  padding: 11px;
+  border: none;
+  letter-spacing: 4px;
+  background-color: rgb(84, 141, 84);
+  color: white;
+  cursor: pointer;
+}
+
+.btnReg:hover{
+  background-color: rgb(101, 170, 101);
+}
+
+
+/************************************INSERTAR CLIENTES************************************/
+
+#regis2{
+    margin: auto;
+    display: block;
+    margin-top:5px;
+    font-size:18px;
+    width:450px;
+    margin-bottom: 100px;
+    height:200px;
+ }
+
+#blanco2{
+    margin-bottom: 50px;
+}
+
+#blanco3{
+    margin-bottom: 180px;
+}
+
+#regTitu{
+    text-align:center;
+    font-size:40px;
+    margin-bottom: -10px;
+    margin-top: -20px;
+    letter-spacing: 3px;
+    color: lightcoral;
+}
+
+.btnIns{
+  margin-left: 40px;
+  width: 370px;
+  margin-top: 25px;
+  padding: 11px;
+  border: none;
+  letter-spacing: 4px;
+  background-color: rgb(84, 141, 84);
+  color: white;
+  cursor: pointer;
+}
+
+/************************************CLIENTES************************************/
+
+
+#contenedor{
+    display: block;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    color: rgb(95, 95, 95);
+    font-size: 14px;
+    width: 1325px;
+    margin-left: -180px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    height:550px;
+}
+
+#cont{
+    margin:auto;
+    display: block;
+    margin-top:40px;
+    font-size:18px;
+    width:450px;
+    height:200px;
+ }
+
+#tituloCliente{
+    margin-top: -20px;
+    margin-left: -300px;
+    font-size: 50px;
+    color: lightcoral;
+    font-family: fantasy;
+    letter-spacing: 5px;
+}
+
+#tab{    
+    margin-top: -60px;
+    margin-left: -230px;
+    border-top: 1px solid rgb(95, 95, 95);
+    border-bottom: 1px solid rgb(95, 95, 95);
+    width: 920px;
+    letter-spacing: 3px;
+}
+
+#canDiv{
+    text-align: justify;
+    font-family: fantasy;
+    font-size: 20px;
+    overflow:scroll;
+    height:350px;
+    width:920px;
+}
+
+table, tr, td{
+    border: 1px solid rgb(223, 223, 223);
+    font-family: fantasy;
+    font-size: 15px;
+  }
+  
+  table{
+    border-radius: 10;
+    border-collapse: collapse;
+    height:200px;
+    margin: auto;
+    width:900px;
+  }
+  
+  td{
+    padding: 15px 6px;
+  }
+  
+  .campos{
+    border-radius: 6;
+  }
+
+  
+.botones:link, .botones:visited{
+    background-color: #ffffff;
+    color: seagreen;
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid seagreen;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .botones:hover, .botones:active {
+    background-color: seagreen;
+    color: white;
+  }
+  
+  .botones2:link, .botones2:visited{
+    background-color: #ffffff;
+    color: tomato;
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid tomato;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .botones2:hover, .botones2:active {
+    background-color: tomato;
+    color: white;
+  }
+
+
+/************************************BARRA INFERIOR************************************/
+
+footer{
+    background-color: lightcoral; 
+    width: 100%; 
+    color: white;
+    font-family: fantasy;
+    font-size: 19px;
+    letter-spacing: 3px;
+    padding: 8px;
+    width: 100%;
+    margin-bottom: -10px;
+    margin-left: -8px;
+    text-align: center;
+}
+
+
+/************************************FILTROS************************************/
+
+.fi{
+    border: 1px solid lightcoral;
+    background-color: white;
+    color: lightcoral;
+    padding: 10px 10px;
+    text-align: center;
+    letter-spacing: 3px;
+    float: right;
+    margin-left: 490px;
+    cursor: pointer;
+    margin-top: -95px;
+    height: 30px;
+    width: 200px;
+  }
+  
+  .fi:hover{
+    background-color: lightcoral;
+    color: white;
+  }
+  
+  .filt {
+    position: absolute;
+    display: inline-block;
+  }
+  
+  
+  .contenidoFiltro{
+    display: none;
+    position: absolute;
+    font-family: fantasy;
+    background-color: #f9f9f9;
+    margin-top: -65px;
+    margin-left: 490px;
+    min-width: 160px;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .contenidoFiltro a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .contenidoFiltro a:hover{
+    background-color: rgb(158, 189, 199);
+    color:white;
+  }
+  
+  .filt:hover .contenidoFiltro {
+    display: block;
+  }
