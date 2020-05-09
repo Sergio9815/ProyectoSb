@@ -11,7 +11,7 @@
     <meta http-equiv="Pragma" content="no-cache">
     <script src="login/js/jquery-3.3.1.min.js"></script>
     <script src="login/js/bootstrap.js"></script>
-    <title>Angel Saloon</title>
+    <title> Angel Saloon </title>
     <link href="css/style.css" rel="stylesheet">
     </head>
 
@@ -63,6 +63,7 @@
               alert("Nombre de usuario o clave incorrecta")
               a++
             }
+
         }
     </script>
 
