@@ -46,6 +46,7 @@
 	</div>
 
     <script language="javascript">
+    
         function check(form)
         {
             var nombre = form.inputEmail.value;
