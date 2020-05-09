@@ -14,11 +14,11 @@
     <title>Angel Saloon</title>
     <link href="css/style.css" rel="stylesheet">
     </head>
-    
+
 <body>
 
     <div id="header" >
-        
+
     </div>
 
     <div class="main">
@@ -49,19 +49,19 @@
         function check(form)
         {
             var nombre = form.inputEmail.value;
-            nombre=nombre.toUpperCase();
-            var clave =form.inputPassword.value
-            clave=clave.toUpperCase();
-            var a= 0;
-         
+            nombre = nombre.toUpperCase();
+            var clave = form.inputPassword.value
+            clave = clave.toUpperCase();
+            var a = 0;
+
             if(nombre == "YAZMIN" && clave == "123")
             {
                 window.open('inicio.php', '_self')
             }
             else
             {
-            alert("Nombre de usuario o clave incorrecta")
-            a++
+              alert("Nombre de usuario o clave incorrecta")
+              a++
             }
         }
     </script>
